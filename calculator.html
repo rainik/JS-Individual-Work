@@ -28,33 +28,33 @@
 			 <form id="calcresult">
 			  <table class="tabcalc">
 			    <tr>				
-					<td colspan="5"><input id="clres" type="text" name="result" value="0" /></td>
+					<td colspan="5"><input id="calres" type="text" name="result" value="0" /></td>
 				</tr>
 				<tr>
-					<td><input type="button" name="seven" onclick="Num(7)" value="7" /> </td>
-					<td><input type="button" name="eight" onclick="Num(8)" value="8" /> </td>
-					<td><input type="button" name="nine" onclick="Num(9)" value="9" /> </td>
-					<td><input type="button" name="divide" onclick="Action('/')" value="/" /> </td>
-					<td><input type="button" name="clear" onclick="Clear()" value="C" /> </td>				
+					<td><input type="button" id="seven" value="7" /> </td>
+					<td><input type="button" id="eight" value="8" /> </td>
+					<td><input type="button" id="nine" value="9" /> </td>
+					<td><input type="button" id="divide" value="/" /> </td>
+					<td><input type="button" id="cls" value="C" /> </td>				
 				</tr> 
 				<tr>
-					<td><input type="button" name="four" onclick="Num(4)" value="4" /></td>
-					<td><input type="button" name="five" onclick="Num(5)" value="5" /></td>
-					<td><input type="button" name="six" onclick="Num(6)" value="6" /></td>
-					<td><input type="button" name="mult" onclick="Action('*')" value="*" /></td>
-					<td><input type="button" name="plusm" onclick="Neg()" value="&plusmn;" /></td>			
+					<td><input type="button" id="four" value="4" /></td>
+					<td><input type="button" id="five" value="5" /></td>
+					<td><input type="button" id="six" value="6" /></td>
+					<td><input type="button" id="mult" value="*" /></td>
+					<td><input type="button" id="plusm" value="&plusmn;" /></td>			
 				</tr> 
 				<tr>
-					<td><input type="button" name="one" onclick="Num(1)" value="1" /></td>
-					<td><input type="button" name="two" onclick="Num(2)" value="2" /></td>
-					<td><input type="button" name="three" onclick="Num(3)" value="3" /></td>
-					<td><input type="button" name="minus" onclick="Action('-')" value="-" /></td>
-					<td rowspan="2"><input id="ravno" type="button" name="equal" onclick="Action('=')" value="=" /></td>
+					<td><input type="button" id="one" value="1" /></td>
+					<td><input type="button" id="two" value="2" /></td>
+					<td><input type="button" id="three" value="3" /></td>
+					<td><input type="button" id="minus" value="-" /></td>
+					<td rowspan="2"><input id="eqv" type="button" value="=" /></td>
 				</tr> 
 				<tr>
-					<td colspan="2"><input id="nul" type="button" name="zero" onclick="Num(0)" value="0" /></td>
-					<td><input type="button" name="point" onclick="Dec()" value="." /></td>
-					<td><input type="button" name="plus" onclick="Action('+')" value="+" /></td>		
+					<td colspan="2"><input id="zero" type="button" value="0" /></td>
+					<td><input type="button" id="point" value="." /></td>
+					<td><input type="button" id="incr" value="+" /></td>		
 				</tr>
 			  </table>
 			  </form>
@@ -65,6 +65,6 @@
 			</address>
 			  <em><b>&copy; Matyushchenko Sergey, 2015</b></em>			
 		  </footer>	   
-		<script src="calc.js"></script>	      
+		<script src="cal.js"></script>	      
 	</body>
 </html>

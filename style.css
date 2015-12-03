@@ -122,14 +122,14 @@ p.p2 			{	padding: 5px 0px 10px 10px;}
 					height:47px;
 					background: linear-gradient(to bottom, #E0E0E0, #fff);
 				}
-.tabcalc #ravno  {	width: 90px;
+.tabcalc #eqv  {	width: 90px;
 					height:101px;
 				}		
-.tabcalc #nul 	{	width: 183px;
+.tabcalc #zero 	{	width: 183px;
 					height:47px;
 				}
 			
-.tabcalc #clres  {	width: 460px;
+.tabcalc #calres  {	width: 460px;
 					height: 50px;
 					background: white;
 					border: 1px solid gray;

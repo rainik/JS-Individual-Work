@@ -5,6 +5,8 @@
  var checkB = document.getElementsByName("box");
  var checkB1 = document.getElementsByName("box1");
 
+document.getElementById("sendform").onclick = function() { showResults(); }
+ 
 var results = 0;
 var tmpRes = 0;
 
@@ -15,7 +17,7 @@ function showResults() {
 	if (listQ[2].checked) {
 		results += 2;
 	};
-	if (servQ[2].checked) {
+	if (servQ[3].checked) {
 		results += 2;
 	};
 
